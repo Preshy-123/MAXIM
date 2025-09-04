@@ -1,0 +1,101 @@
+@media (max-width: 760px) {
+  .container {
+    padding: 0 1em;
+  }
+
+  /* navbar */
+  .nav {
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .nav_menu-list {
+    flex-direction: column;
+    color: #141421;
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    gap: 2em;
+    left: 0;
+    position: absolute;
+    top: 50px;
+    border-radius: 2em;
+    font-weight: bolder;
+    display: none;
+  }
+
+  .nav_menu-list > a {
+    font-size: 2.5em;
+    position: relative;
+    top: 3em;
+  }
+
+  .nav_menu-list.show {
+    display: flex;
+  }
+
+  .toggle_menu {
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+    gap: 1em;
+    position: relative;
+  }
+
+  .image > img {
+    display: none;
+    height: 40vw;
+  }
+
+  .hero {
+    max-height: none;
+    height: none;
+
+    text-align: center;
+    position: relative;
+    top: 2.5em;
+  }
+
+  .hero-details > h1 {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+
+  .hero-details > p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .details {
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .countdown-box {
+    position: absolute;
+    left: 16%;
+    top: 30em;
+    margin: auto;
+    width: 80%;
+    height: 50vh;
+    bottom: 10em;
+  }
+
+  footer {
+    position: relative;
+    top: 2em;
+  }
+
+  /* .countdown-timer div {
+    width: 10%;
+    margin-left: 6em;
+    font-size: 10px;
+  } */
+}

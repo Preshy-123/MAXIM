@@ -1,0 +1,122 @@
+for (let j = 0; j <= 50; j++) {
+  if (j % 2 === 0) console.log(j);
+}
+
+function factorial(n) {
+  if (n === 1) {
+    return 1;
+  }
+
+  return n * factorial(n - 1);
+}
+console.log(factorial(9));
+
+// encapsulation
+class Animal {
+  constructor(name) {
+    this.name = name;
+    let hidden = "grills";
+    this.showhidden = function () {
+      console.log(`The ${this.name} has a ${hidden}`);
+    };
+  }
+  sleep() {
+    console.log(`${this.name} dont sleep`);
+  }
+}
+let myAnimal = new Animal("Fish");
+myAnimal.showhidden();
+
+//abstraction
+class Cars {
+  move() {
+    console.log("cars have engines");
+  }
+  drive() {
+    console.log("I know how to drive a car");
+  }
+}
+let myCars = new Cars();
+myCars.move();
+myCars.drive();
+
+class Jet {
+  fly() {
+    console.log("A jet can fly");
+  }
+  move() {
+    console.log("a moving jet");
+  }
+}
+let Jets = new Jet();
+Jets.fly();
+
+// inheritance
+class Human {
+  talk() {
+    ccnsole.log("humas talk");
+  }
+  walk() {
+    console.log("john is walking");
+  }
+}
+class john extends Human {
+  sleep() {
+    console.log("john sleeps alot");
+  }
+}
+let johns = new john();
+johns.walk();
+
+// polymorphosim
+class Animals1 {
+  sleep() {
+    console.log("fishes dont sleep");
+  }
+  talk() {
+    console.log("animals dont talk");
+  }
+}
+class Dog extends Animals1 {
+  speak() {
+    console.log("woo woo woo");
+  }
+}
+class Cat extends Animals1 {
+  speak() {
+    console.log("meow meow meow");
+  }
+}
+
+class Cow extends Animals1 {
+  speak() {
+    console.log("moooo");
+  }
+}
+let Animals12 = [new Dog(), new Cat(), new Cow()];
+Animals12.forEach((Animals12) => {
+  Animals12.speak();
+});
+
+class jet {
+  fly() {
+    console.log("a flying jet");
+  }
+  move() {
+    console.log("jet moves before flying");
+  }
+}
+class personal extends jet {
+  trek() {
+    console.log("a private jet walks");
+  }
+}
+class commercial extends jet {
+  trek() {
+    console.log("a commercial jet");
+  }
+}
+let jets = [new personal(), new commercial()];
+jets.forEach((jets) => {
+  jets.trek();
+});

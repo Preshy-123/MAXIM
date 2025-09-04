@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./IMG/image 1.png" type="image/x-icon" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -14,6 +15,10 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -66,29 +71,38 @@
           <div class="image animate__animated animate__rotateInDownRight">
             <img src="./IMG/Rectangle 477.png" alt="" />
           </div>
+        </div>
 
-          <div class="countdown-box">
-            <h4>PRIVATE SALE ROUNDS UP IN</h4>
-            <div class="countdown-timer">
-              <div>0 <br />Days</div>
-              <div>0 <br />Hours</div>
-              <div>0 <br />Mins</div>
-              <div>0 <br />Secs</div>
+        <div class="countdown-box">
+          <h4>PRIVATE SALE ROUNDS UP IN</h4>
+          <div class="countdown-timer">
+            <div class="timer">
+              <span id="days">00</span> <span class="label">Days</span>
             </div>
-            <div class="progress-bar">
-              <div class="progress"></div>
-              <div class="white-box">
-                <div class="purple-box"></div>
-              </div>
+            <div class="timer">
+              <span id="hours">00</span> <span class="label">Hours</span>
             </div>
-            <div class="tokens-left">6 million left off 10 millon token</div>
-            <a href="#" class="view-tier"> View Tier</a>
+            <div class="timer">
+              <span id="mins">00</span> <span class="label">Mins</span>
+            </div>
+            <div class="timer">
+              <span id="secs">00</span> <span class="label">Secs</span>
+            </div>
           </div>
+          <div class="progress-bar">
+            <div class="progress"></div>
+            <div class="white-box">
+              <div class="purple-box"></div>
+            </div>
+          </div>
+          <div class="tokens-left">6 million left off 10 millon token</div>
+          <a href="#" class="view-tier"> View Tier</a>
         </div>
       </div>
     </section>
-    <div class="footer">
-      <a href="#"><img src="./IMG/Frame 1360.png" alt="" /></a>
-    </div>
+
+    <footer><img src="./IMG/Frame 1360.png" /></footer>
+
+    <script src="./Js/class.js"></script>
   </body>
 </html>
