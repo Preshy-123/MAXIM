@@ -19,8 +19,9 @@
     gap: 2em;
     left: 0;
     position: absolute;
-    top: 50px;
+    top: 6em;
     border-radius: 2em;
+
     font-weight: bolder;
     display: none;
   }
@@ -92,10 +93,4 @@
     position: relative;
     top: 2em;
   }
-
-  /* .countdown-timer div {
-    width: 10%;
-    margin-left: 6em;
-    font-size: 10px;
-  } */
 }
