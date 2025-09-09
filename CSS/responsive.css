@@ -81,16 +81,16 @@
 
   .countdown-box {
     position: absolute;
-    left: 16%;
+    right: 2em;
     top: 30em;
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: 50vh;
-    bottom: 10em;
+    bottom: 5em;
   }
 
   footer {
     position: relative;
-    top: 2em;
+    top: 5em;
   }
 }

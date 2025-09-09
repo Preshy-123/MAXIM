@@ -43,7 +43,7 @@ a {
   font-size: small;
   background-color: blue;
   border-radius: 3em;
-  padding: 1em 1em 1em 1em;
+  padding: 0.5em;
   color: white;
   margin-left: 15em;
   margin-bottom: 10em;
@@ -60,7 +60,7 @@ i {
     width: 70vw;
     position: absolute;
     margin: auto;
-    left: 5em;
+    left: 4em;
   }
 
   .box1 {
@@ -68,12 +68,14 @@ i {
     flex-direction: column;
     gap: 2em;
   }
-  .right {
-    position: relative;
-    right: 4em;
-  }
+
   .bxs-swap-horizontal {
     position: relative;
-    left: 10em;
+    left: 7em;
+  }
+  a {
+    position: absolute;
+    right: 5em;
+    width: 40%;
   }
 }
