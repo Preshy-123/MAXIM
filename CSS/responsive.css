@@ -40,7 +40,7 @@
     display: block;
     color: white;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .grid-2 {
@@ -81,16 +81,16 @@
 
   .countdown-box {
     position: absolute;
-    right: 2em;
+    left: 1em;
     top: 30em;
     margin: auto;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     bottom: 5em;
   }
 
   footer {
     position: relative;
-    top: 5em;
+    top: 3em;
   }
 }
